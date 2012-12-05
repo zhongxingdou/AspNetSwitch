@@ -20,9 +20,12 @@ Clone this repository in to the Sublime Text 2 "Packages" directory, which is lo
 
 
 ## Key Binding
-
-"alt+c" switch file between .aspx and .aspx.cs 
-"alt+d" switch file between .aspx and .aspx.designer.cs 
+### normal
+* "alt+c" switch file between .aspx and .aspx.cs 
+* "alt+d" switch file between .aspx and .aspx.designer.cs 
+### command mode
+* "gc" switch file between .aspx and .aspx.cs
+* "gd" switch file between .aspx and .aspx.designer.cs
 
 ## Command Palette
 

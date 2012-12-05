@@ -1,0 +1,58 @@
+[
+    {
+        "id": "goto",
+        "children":
+        [
+            {   
+                "caption": "Asp.Net Switch File",
+                "children":
+                [
+                    {
+                        "caption": ".aspx",
+                        "command": "switch_aspx_cs",
+                        "context": [{"key": "selector", "operator": "equal", "operand": "source.cs"}]
+                    },
+                    {
+                        "caption": ".aspx.cs",
+                        "command": "switch_aspx_cs",
+                        "context": [{"key": "selector", "operator": "equal", "operand": "source.aspx"}]
+                    },
+                    {
+                        "caption": ".aspx.designer.cs",
+                        "command": "switch_aspx_designer_cs",
+                        "context": [{"key": "selector", "operator": "equal", "operand": "source.aspx"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "AspNetSwitch",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/AspNetSwitch/Default.sublime-keymap"
+                                },
+                                "caption": "Key Bindings – Default"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    } 
+]

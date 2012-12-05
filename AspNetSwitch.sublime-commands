@@ -1,0 +1,4 @@
+[
+    { "caption": "AspNetSwitch: .aspx--.apsx.cs ", "command": "switch_aspx_cs" },
+    { "caption": "AspNetSwitch: .aspx--.aspx.designer.cs", "command": "switch_aspx_designer_cs" }
+]

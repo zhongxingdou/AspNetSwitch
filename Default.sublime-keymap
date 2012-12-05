@@ -1,0 +1,27 @@
+[
+    {
+        "keys": ["alt+c"], 
+        "command": "switch_aspx_cs"
+    },
+
+    {
+        "keys": ["alt+d"],
+        "command": "switch_aspx_designer_cs"
+    },
+
+    {
+        "keys": ["g","c"],
+        "command": "switch_aspx_cs",
+        "context": [
+            {"key": "setting.command_mode"}
+        ]
+    },
+
+    {
+        "keys": ["g","d"],
+        "command": "switch_aspx_designer_cs",
+        "context": [
+            {"key": "setting.command_mode"}
+        ]
+    }
+]

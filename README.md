@@ -3,6 +3,8 @@ AspNetSwitch is a Asp.net file switching plugin for Sublime Text 2.
 
 ## Features
 * switch file between .aspx and .aspx.cs 
+* switch file between .ascx and .ascx.cs 
+* switch file between .master and .master.cs 
 * switch file between .aspx and .aspx.designer.cs 
 
 ## Install
@@ -23,16 +25,23 @@ Clone this repository in to the Sublime Text 2 "Packages" directory, which is lo
 
 ### normal
 * "alt+c" switch file between .aspx and .aspx.cs 
+* "alt+c" switch file between .master and .master.cs 
+* "alt+c" switch file between .ascx and .ascx.cs 
+
 * "alt+d" switch file between .aspx and .aspx.designer.cs 
 
 ### command mode
 * "gc" switch file between .aspx and .aspx.cs
+* "gc" switch file between .master and .master.cs
+* "gc" switch file between .ascx and .ascx.cs 
+
 * "gd" switch file between .aspx and .aspx.designer.cs
 
 ## Command Palette
 
 Open the command palette via "ctrl + shift + p", AspNetSwitch appears as 
-"AspNetSwitch: .aspx--.aspx.cs" and "AspNetSwitch: .aspx--.aspx.designer.cs"
+"AspNetSwitch: (.aspx .master .ascx)--.cs" 
+"AspNetSwitch: .aspx--.aspx.designer.cs"
 
 ---
 
